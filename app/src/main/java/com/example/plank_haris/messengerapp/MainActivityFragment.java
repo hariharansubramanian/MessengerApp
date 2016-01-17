@@ -17,6 +17,7 @@ public class MainActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        //pass ViewGroup container into fragment layout and return inflated view
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 }
